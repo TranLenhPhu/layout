@@ -1,0 +1,247 @@
+
+header {
+    background-image: linear-gradient(to left,#4f81cc,#3f69b7);
+    display: inline-block;
+    width: 100%;
+}
+.container{
+    max-width: 960px;
+    width: 100%;    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.logo-header{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo-header a img {
+    padding: 4px;
+    
+}
+
+.logo-header a {
+    width: 150px;
+    display: inline-block;
+    background: #fff;
+    height: 64px;
+    text-align: center;
+}
+
+.logo-header h2 {
+    color: #fff;
+    font-size: 14px;
+    width: 300px;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-weight: 400;
+    margin-left: 15px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-list{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.header-list li {
+    float: left;
+    list-style: none;
+}
+.header-list li a {
+    color: #fff;
+    border-left: 1px solid #7d9ed5;
+    padding: 20px 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 64px;
+}
+.header-list li a span {
+    margin: 0 15px;
+    font-size: 14px;
+}
+.header-list .order-code {
+    width: 165px;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+}
+.header-list li:last-child a {
+    border-right: 1px solid #7d9ed5;
+}
+
+.index-header {
+    color: #4f81cc;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.text-center {
+    text-align: center;
+}
+.load-text{
+    color: #8f8f8f;
+}
+
+#methods{
+    box-shadow: 0 10px 100px rgba(0,0,0,.08);
+}
+.payment-methods {
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.payment-methods .card {
+    border: 0;
+    background: 0 0;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+.payment-methods>.card{
+    overflow: hidden;
+}
+
+.shadow {
+    box-shadow: none!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    box-sizing: border-box;
+}
+.payment-methods .card .card-One {
+    height: 72px;
+    background-color: #fbfbfb;
+    border-bottom: 0;
+    background-image: linear-gradient(-90deg,#f9f9f9 0,#f9f9f9 .5%,#fff 100%);
+}
+
+.payment-methods>.card>.card-One {
+    border-radius: 0;
+    margin-bottom: -2px;
+}
+
+
+
+#methods.payment-methods .card .card-One button.collapsed {
+    font-weight: 400;
+    color: #0f1d31;
+}
+#methods.payment-methods .card .card-One button{
+    font-size: 18px;
+    font-weight: 500;
+}
+.payment-methods .card .card-One button {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    
+}
+.payment-methods .card .card-One button span .dropdown-toggle{
+    display: inline-block;
+    /* float: right; */
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    color:aqua;
+    padding: 10px;
+    background-color: #eaf1f8;
+}
+
+.coundown {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.coundown span {
+    color: #8f8f8f;
+    font-size: 12px;
+    text-align: center;
+   
+}
+.coundown p {
+    font-size: 16px;
+    color: #4f81cc;
+}
+.note {
+    width: 55%;
+    position: relative;
+    bottom: -41px;
+    left: 20%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.note span{
+    color: red;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    background-color: #4f81cc;
+    padding: 12px 0px 5px;
+    margin-top: 100px;
+
+    float: left;
+}
+.footer-left {
+    width: 60%;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+.footer-left a{
+    display: initial;
+    float: left;
+    border-right : 1px solid #4d74bd;
+    padding-right: 0;
+    margin-right: 15px;
+}
+.footer-left .footer-text {
+    color: #f4f4fd;
+    font-size: 12px;
+}
+p ,ul {
+    margin: 0;
+}
+ul {
+    padding: 0;
+}
+.footer-left .footer-text ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-right{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    text-align: right;
+    color: #f4f7fd;
+    font-size: 14px;
+}
+.footer-right ul{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+}
